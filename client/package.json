@@ -1,0 +1,31 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "react": "^16.4.1",
+    "react-bootstrap": "^0.32.1",
+    "react-bootstrap-form": "^0.1.4-beta6",
+    "react-bootstrap-inputs": "0.0.2",
+    "react-bootstrap-table": "^4.3.1",
+    "react-dom": "^16.4.1",
+    "react-html5-": "^1.0.0-RC.5",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "typescript": "^2.9.2",
+    "jest-enzyme": "^6.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest --watch",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:3333",
+  "devDependencies": {
+    "create-react-class": "^15.6.3"
+  }
+}

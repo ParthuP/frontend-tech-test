@@ -1,0 +1,12 @@
+.button-align {
+    margin-left: 5px;
+    border-radius: 3px
+}
+.formBorder{
+    border: 5em;
+    border-radius: 3em;
+    border-color: black
+}
+.buttons-div{
+    margin-top: 10px;
+}

@@ -1,19 +1,32 @@
 {
   "name": "test-candidates",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "test back - front",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
   "keywords": [
     "test",
     "travix"
   ],
-  "author": "spartans",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParthuP/frontend-tech-test.git"
+  },
+  "author": "Spartans",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ParthuP/frontend-tech-test/issues"
+  },
+  "homepage": "https://github.com/ParthuP/frontend-tech-test#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "concurrently": "^3.6.0",
+    "express": "^4.16.3",
+    "react-dom-factories": "^1.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
   }
 }
